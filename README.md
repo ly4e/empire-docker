@@ -1,6 +1,6 @@
 # empire-docker
 PowerShell Empire is a PowerShell and Python post-exploitation agent.
-This repo is built around having a dockerized container
+This repo is built around having a dockerized container of PowerShell Empire for easy reuse and portability
 
 ### references:
 [PowerShell Empire | Building an Empire with PowerShell](http://www.powershellempire.com/)
