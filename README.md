@@ -21,9 +21,12 @@ Also available pre-built from docker hub `docker pull ly4e/empire-docker`
 ## Usage Example(s):
 
 ```
-docker container run --rm -it --publish 80:80 -p 443:443 -p 8080:8080 -v $(pwd)/Empire/tmp:/tmp -v $(pwd)/Empire/downloads:/opt/Empire/downloads ly4e/empire-docker
+docker container run --rm -it --publish 80:80 -p 443:443 -p 8080:8080 \
+  -v $(pwd)/Empire/tmp:/tmp \
+  -v $(pwd)/Empire/downloads:/opt/Empire/downloads \
+  ly4e/empire-docker
 ```
-
+#### Parameters broken down
 `-p 80:80` exposes port 80 within the docker container to port 80 on the host
 
 `-v $(pwd)/Empire/tmp:/tmp` By default, PowerShell Empire writes generated stager files to /tmp. This volume mapping exists to conveniently write stager output files to the host for later use.
