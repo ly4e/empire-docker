@@ -4,7 +4,10 @@ This repo is built around having a dockerized container
 
 ### references:
 [PowerShell Empire | Building an Empire with PowerShell](http://www.powershellempire.com/)
+
+
 [GitHub - EmpireProject/Empire: Empire is a PowerShell and Python post-exploitation agent.](https://github.com/EmpireProject/Empire)
+
 
 [Hacking and security: PowerShell Empire Docker Build](http://hackingandsecurity.blogspot.com/2017/07/powershell-empire-docker-build.html)
 
